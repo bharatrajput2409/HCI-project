@@ -17,7 +17,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="/media/images/ico/favicon.ico"> 
+    <!-- <link rel="shortcut icon" href="/media/images/ico/favicon.ico">  -->
 </head> 
 
 <body id="home">
@@ -53,7 +53,10 @@
                                  
                                     <h2 style="color: #39404d;">Control Your <b>MOUSE</b></h2>
                                     <p style="color: #39404d;">Want To Achieve More Despite Disabilities of Hands, <br/> then try Smyle Mouse!</p>
-                                    <button class="btn btn-primary btn-lg" style="background-color: #39404d;" onclick="location.href='{% url 'external' %}'">Start Now</button>
+                                    <div class="">
+                                        <button class="btn btn-primary ml-auto btn-lg" style="background-color: #39404d;display: block;" onclick="location.href='{% url 'external' %}'">Start Now</button>
+                                    </div>
+                                    
                                 
                             </div>
                         </div>
@@ -170,13 +173,13 @@
 
 
     <script src="{% static 'js/jquery.js'%}"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/bootstrap.min.js"></script> 
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/mousescroll.js"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/smoothscroll.js"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/jquery.prettyPhoto.js"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/jquery.isotope.min.js"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/jquery.inview.min.js"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/wow.min.js"></script>
-    <script src="/home/ankit/projects6thsem/hci/buttonpython/templates/js/custom-scripts.js"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'js/mousescroll.js'%}"></script>
+    <script src="{% static 'js/smoothscroll.js'%}"></script>
+    <script src="{% static 'js/jquery.prettyphoto.js'%}"></script>
+    <script src="{% static 'js/jquery.isotope.min.js'%}"></script>
+    <script src="{% static 'js/jquery.inview.min.js'%}"></script>
+    <script src="{% static 'js/wow.min.js'%}"></script>
+    <script src="{% static 'js/custom-scripts.js'%}"></script>
 </body>
 </html>
